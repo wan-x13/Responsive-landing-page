@@ -1,0 +1,700 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500&display=swap');
+
+
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow', sans-serif;
+  box-sizing: border-box;
+  
+
+ 
+}
+.container{
+
+  display: grid;
+  margin: 0;
+  padding: 0;
+}
+
+/*   MENU DE NAVIGATION + HEADER     */
+
+
+header{
+
+ background-image: url("./images/desktop/image-header.jpg");
+ height: 800px;
+ background-size: cover;
+ background-position: center ; 
+ box-sizing: border-box;
+ margin:O;
+ padding: 0;
+ display: grid;
+ grid-template-columns: 300px 300px 550px;
+ color: #fff;
+ font-weight: 50%;
+
+
+}
+
+header .logo-principal{
+  margin: 20px 20px;
+  padding: 20px;
+}
+
+h1{
+  margin: 20px;
+  font-family: 'Fraunces', serif;
+
+}
+
+.header-description{
+
+  text-align: center;
+  width: 700px;
+  position: relative;
+  left: 20px;
+  border: 1px solid black;
+ 
+
+}
+
+.header-description img{
+
+  width: 20px;
+  height: 70px;
+  position: relative;
+  top: 140px;
+ 
+  
+
+}
+.header-description .slogan{
+
+  font-size: 40px;
+  letter-spacing: 15px;
+  font-weight: bolder ;
+  position: relative;
+  padding: auto;
+  top: 180px;
+  font-family: 'Fraunces', sans-serif;
+  border: 1px solid black;
+
+
+}
+.navigation .info-nav{
+
+
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-around;
+  position: relative;
+  left: 100px;
+  right: 200px;
+  list-style: none;
+  font-size: 120%;
+  font-weight: bold;
+  height: 100px;
+
+}
+li a{
+ 
+  text-decoration: none;
+  color: #fff;
+ 
+}
+li a:hover{
+
+  cursor: pointer;
+}
+
+.info-nav .contact{
+
+width: 120px;
+box-sizing: border-box;
+height: 50px;
+border: none;
+border-radius: 50px ;
+position: relative;
+bottom: 15px;
+font-weight: bold;
+font-size: 90%;
+background-color: #fff;
+font-family: "Fraunces" , sans-serif;
+
+}
+.contact:hover{
+  cursor: pointer;
+
+}
+
+/*  FIN DE MENU NAVIGATION + NAVBAR*/
+
+
+/* DEBUT MENU SECTION */
+
+
+
+.section-main{
+
+  display: grid;
+  margin: 0;
+  padding: 0;
+}
+/* MENU ARTICLE */
+
+
+.services{
+
+  display: grid;
+
+}
+
+/*transform your brand */
+
+
+
+.services .services-transform{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 500px;
+ 
+
+
+}
+
+.transform, .audience{
+
+  margin: 100px;
+  padding:0 ;
+  height: 400px;
+ 
+}
+.transform h1, .audience h1{
+
+  font-size: 50px;
+  margin-left: 0;
+
+}
+.transform .learn{
+
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  left: 20px;
+
+}
+.transform p ,.audience p{
+  opacity: 0.5;
+  font-family: 'Barlow', sans-serif;
+}
+
+.image-transform img{
+
+  width: 100%;
+  height: 500px;
+}
+
+/* services audience*/
+
+
+.services .services-audience{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 500px;
+ 
+}
+.services-audience .items-2{
+  text-align: center;
+
+}
+.stand-out img{
+
+  width: 100%;
+  height: 500px;
+}
+.audience h1{
+
+  font-size: 45px ;
+}
+
+
+/* SERVICES THREE*/
+
+
+
+.services-three{  
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 500px;
+
+
+}
+.services-three .graphic{
+  background-image: url("./images/desktop/image-graphic-design.jpg");
+  background-size: cover;
+  background-position: center  center;
+
+}
+.services-three .photography{
+  background-image: url("/images/desktop/image-photography.jpg");
+  background-size: cover;
+  background-position: center  center;
+
+
+}
+.graphic-child, .photo-child{
+
+  width: 280px;
+  position: relative;
+  top: 300px;
+  left: 170px;
+  text-align: center;
+
+
+
+}
+
+/*FIN SERVICES-THREE */
+
+
+/* START  CONSUMER */
+
+
+
+.consumer{
+
+  align-items: center;
+  height: 600px;
+
+
+}
+.consumer h1{
+
+  margin-top: 70px;
+  text-align: center;
+  opacity: 0.5;
+  font-weight: bold;
+  font-family: 'Fraunces', sans-serif;
+
+
+}
+
+.consumer .clientele{
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+
+  justify-content: center;
+  text-align: center;
+  height: 300px;
+
+  
+  
+
+}
+
+.client-1, .client-2, .client-3{ 
+
+  padding-right: 40px;
+  
+}
+
+.client-1 img ,.client-2 img , .client-3 img{
+
+  height: 50px;
+  position: relative;
+  top: 20px;
+  border-radius: 50%;
+}
+.client-1 p, .client-2 p, .client-3 p{
+  position: relative;
+  top: 50px ;
+
+}
+.client-1 h3, .client-2 h3 , .client-3 h3{
+
+  position: relative;
+  top: 70px;
+  font-family: 'Fraunces', serif;
+}
+.fonction{
+
+  opacity: 0.5;
+}
+
+/* FIN ARTICLE CONSUMER*/
+
+
+/* START RTICLE PHOTOS*/
+
+
+.photos{
+
+  display: flex;
+  height: 400px;
+
+ 
+}
+.photos img{
+
+  width: 25%;
+
+
+}
+/*FIN ARTICLE PHOTOS */
+
+
+/*START FOOTER */
+
+
+
+footer{
+  
+  text-align: center;
+  height: 270px;
+  background: rgb(116, 175, 146);
+}
+
+footer .logo{
+
+position: relative;
+top: 15px;
+}
+
+footer .more{ 
+
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+footer .more .plus{
+  padding: 15px;
+  
+
+
+}
+
+footer .social{
+  position: relative;
+  top: 90px;
+  padding: 10px;
+
+}
+
+
+
+
+
+
+/** DEBUT MEDIA QUERIES **/
+
+@media screen and (max-width: 800px){
+
+  body{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+
+  }
+  p{
+
+    font-size: 30px;
+  }
+  h1{
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: 'Fraunces' , sans-serif;
+
+
+  }
+
+  /** FIN MAIN **/
+  .container{
+
+    display: grid;
+   
+  }
+  .container .logo-principal{
+    margin-top: 60px;
+    
+  }
+
+  header{
+
+    grid-template-columns: none;
+    background-image: url('./images/mobile/image-header.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    text-align: center;
+    display: grid;
+    display: grid;
+    grid-template-areas:
+      ".logo-principal"
+      ".header-description"
+      ".navigation";
+    grid-template-rows: 3fr ;
+  
+
+  }
+
+  .logo-principal{
+    grid-area: ".logo-principal";
+
+
+  }
+  .header-description{
+    grid-area: ".header-description";
+
+    
+  }
+  .navigation{
+    grid-area: ".navigation";
+    position: relative;
+    right: 70px;
+    box-sizing: border-box;
+
+  }
+
+  .header-description .slogan{
+    
+    position: relative;
+    right: 60px;
+    bottom: 200px;
+
+
+  }
+    .container .header-description  p{
+
+      font-weight: bolder;
+      font-size: 65px;
+      font-family: 'Fraunces', sans-serif;
+      color: white;
+
+
+    }
+    .navigation  .info-nav{
+
+      display: grid;
+      list-style: none;
+      font-size: 50px;
+      position: relative;
+      bottom: 100px;
+      height:  300px;
+      
+      
+    }
+    .info-nav .item a{
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      right: 30px;
+
+    }
+    .info-nav .item button{
+
+      border-radius: 50px;
+      background-color: #fff;
+      color: black;
+      width: 300px;
+      height: 80px;
+      font-size: 50px;
+      font-weight: bolder;
+      font-family: 'Fraunces', sans-serif;
+      position: none;
+
+
+    }
+ 
+  /** Debut section **/
+
+  section{
+
+    display: flex;
+    flex-direction: column;
+  }
+  article{
+
+    display: flex;
+    flex-direction: column;
+    flex: 600px;
+  }
+  
+  /** article transform **/
+  .services .services-transform, .services .services-audience{  
+
+    grid-template-columns: none;
+    height: 1100px;
+    
+  }
+  
+  .transform, .audience { 
+    height: 500px;
+    margin: 40px 40px;
+   
+  }
+  .image-transform{
+    width: 900px;
+
+
+  }
+  
+  .transform a , .audience a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Fraunces' , sans-serif;
+  }
+  /** fin article transform **/
+
+
+  /** debut graphic **/
+  .services-three{
+
+    display: flex;
+    flex-direction: column;
+  }
+  .graphic{
+
+    background-image: url("./images/mobile/image-graphic-design.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    
+
+    
+  }
+  .graphic-child, .photo-child{
+
+    margin: 60px;
+    padding-top: 350px;
+    text-align: center;
+    position: relative;
+    top:30px;
+    width: 600px;
+    
+
+  }
+  .graphic-child h1{
+    font-size: 50px;
+
+
+  }
+  .photography{
+    background-image: url("./images/mobile/image-photography.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+
+  }
+  /**fin graphic  **/
+
+/** debut consumer**/
+  .consumer{
+
+    height: 3000px;
+
+
+  }
+  
+  
+  .consumer h1{
+
+    text-align: center;
+    opacity: 0.5;
+    position: relative;
+    top: 1000px;
+  }
+  .consumer .clientele{
+
+    display: grid;
+    grid-template-columns: none;
+    gap: 30px;
+    justify-content: none;
+    position: relative;
+    top: 1200px;
+   
+    
+    
+  }
+  .client-1, .client-2, .client-3{
+
+    padding: 20px;
+    font-family: 'barlow', sans-serif;
+    font-family: bold;
+
+    height: 500px;
+   
+    
+
+  }
+  
+  .clientele p{
+    opacity: 0.8;
+
+
+  }
+  .clientele img{ 
+
+    border-radius: 50%;
+    
+     
+  }
+  .clientele h3{
+
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Fraunces' , sans-serif;
+
+  }
+
+  /** fin article Fin section**/
+
+
+
+  /** Photos**/
+
+  .container .photos{
+    display: flex;
+    width : 800px
+  }
+  .photos img{
+
+
+    width: 420px;
+
+
+  }
+
+
+
+
+
+  /** debut footer**/
+
+
+  footer{
+
+    display: grid;
+    
+   
+  }
+ 
+  
+
+ 
+  
+}
