@@ -249,4 +249,95 @@ footer{
 }
 
 
+@media screen and (max-width: 880px){
+
+    body{
+
+        width: 880px;
+    }
+    .container{
+
+        width: 880px;
+        height: auto;
+    }
+
+    .topbar{
+        flex-direction: column;
+        position: relative;
+        top: 60px;
+    }
+    .header-description{
+
+        position: relative;
+        top: 100px;
+    }
+    .header-description img{
+
+        position: relative;
+        top: 10px;
+    }
+    /** section main **/
+   .services{
+
+        display: grid;
+        
+        
+   }
+
+   .services-transform, .services-audience, .design {
+       display: grid;
+       grid-template-rows: 1fr 1fr;
+       grid-template-columns: none;
+       height: 1200px;
+    
+   }
+
+   .image-transform img, .stand-out img{
+       width: 100%;
+       
+   }
+   .consumer{
+       height: 2200px;
+   }
+
+   .consumer h1{
+       font-size: 60px;
+
+
+
+   }
+   .consumer .clientele{ 
+       display: grid;
+    
+}
+
+.clientele p{
+
+    font-size: 35px;
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+.clientele .fonction{
+
+    font-size: 30px;
+    opacity: 0.5;
+}
+.clientele h3{
+    font-size: 40px;
+}
+
+
+/**  partie photos   **/
+.first , .second{
+
+    display: flex;
+    height: 200px;
+    width: 50%;
+}
+
+
+}
+
+
 
